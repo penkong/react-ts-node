@@ -1,0 +1,30 @@
+handling ts with react 
+
+type of props a react component receive 
+
+propTypes , displayName , defaultProps , contextTypes
+
+
+
+div draggable onDragStart={}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
