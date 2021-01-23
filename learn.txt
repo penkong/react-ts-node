@@ -8,6 +8,12 @@ propTypes , displayName , defaultProps , contextTypes
 
 div draggable onDragStart={}
 
+bindActionCreator from redux lib
+const dispatch = useDispatch()
+bindActionCreator(firs arg is object with some action creators , dispatch)
+
+it back allAction creators inside item with already dispatch()
+
 
 
 
