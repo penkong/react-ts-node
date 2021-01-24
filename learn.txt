@@ -65,3 +65,37 @@ localforage
 
 
 all new load item is iframe.
+
+
+
+what is iframe 
+it take src that refer to html file of those info or app
+
+we run js on frame of child iframe
+
+
+javascript world of iframe is different .
+
+in iframe you can access info from parent by typeing parent , windoe === parent
+from parent reach to child , document.querySelector('iframe').contentWindow
+
+we must close direct access to each other .
+
+for direct access :
+when access happen when we dont provide sandbox prop or set it to 
+sandbox=allow-same-origin
+
+
+for disable :
+sandbox="" // means what we allow the iframe do
+or
+also if domain , port and protocol become different direct access will remove.
+
+
+now how add our js inputv inside it .
+
+
+srcDoc={html} + sandbox="allow-scripts"
+add this to iframe as prop
+
+open source editor : *****monaco editor , ace editor , code mirror
