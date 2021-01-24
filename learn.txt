@@ -17,20 +17,51 @@ it back allAction creators inside item with already dispatch()
 
 
 
+exec js in browser 
+
+turn jsx to sth browser understand
+code ---> transpiler(babel or esbuild) ---> safe to execute code .
+
+codepen.io
+babaljs.io
+
+
+option 2 
+code ---> in browser transpiler ---> transpiler result
+
+
+about import statement 
 
 
 
 
+common js  require , module.exports
+es module  import , export default
 
 
+transpiler transpile code 
+bundler let modules communicating with each other .
 
 
+for import case we need make bundler that instead of reading file 
+from hard drive go and get it from internet
+
+webpack + babel ---> esbuild work on browser
+
+esbuild-wasm ---> is ---> jswrapper(go lang in wasm mode - compiled )
 
 
+npm view react dist.tarball  ===> it show link of source of react or whatever.
+
+cant do it in browser because it cause cors .
+
+we use unpkg cdn to do this.
+
+esbuild find path to items in onResolve function
 
 
+indexedDB with lib 
+localforage
 
 
-
-
-
+all new load item is iframe.
